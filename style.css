@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  color: rgb(249, 249, 249);
+   }
+
+   button{
+    margin: 10px;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 2px;
+   
+   }
+
+    #rock {
+      
+      background-color: rgb(151, 33, 108);
+    }
+
+    #paper {
+      background-color: rgb(212, 234, 17);
+    }
+
+    #scissors {
+      background-color: rgb(65, 65, 248);
+    }
+
+
+
+   .container{
+    background-color: rgb(40, 39, 37);
+    box-shadow: 3px 3px 555px rgb(40, 39, 37);
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    margin: 10% 25%;
+    border-radius: 4px;
+   }
+   .flex-container{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+   }
+   .flex-container div{
+    background-color: rgb(32, 203, 66);
+    box-shadow: 2px 2px 2px rgb(104, 239, 62);
+    box-sizing: border-box;
+    width: 15vw;
+    height: 15vh;
+    padding: 20px;
+    font-size: 20px;
+     justify-items: center;
+     justify-content: center;
+   }
